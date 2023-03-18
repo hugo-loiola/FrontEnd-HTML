@@ -1,1 +1,1 @@
-# HTML para disciplina de FrontEnd
+# HTML para a disciplina de FrontEnd

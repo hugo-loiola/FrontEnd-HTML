@@ -4,7 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>form</title>
   </head>
-  <body></body>
-</html>
+  <body>
+    
+    <ul>
+      <li><a href="/index.html">Pagina inicial</a></li>
+      <li><a href="/tabela.html">Tabelas</a></li> 
+    </ul>
+
+    <h1>Cadastro do Cliente</h1>
+
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" placeholder="Digite um nome" id="nome" name="nome" />
+      <br />
+      <label for="phone">Telefone:</label>
+      <input type="tel" id="telefone" name="phone"/>
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <br />
+      <label for="password">Senha:</label>
+      <input type="password" id="senha" name="senha">
+      <br />
+      <label>Sexo:</label>
+      <input type="radio" id="sexo-m" name="sexo" value="Masculino">
+      <label for="sexo-m">Masculino</label>
+      <input type="radio" id="sexo-f" name="sexo" value="Feminino">
+      <label for="sexo-f">Feminio</label>
+      <br />
+      <label for="UF">UF</label>
+      <select id="UF" name="UF">
+        <option value="selecionar">Selecionar</option>
+        <option value="SP">SP</option>
+        <option value="RJ">RJ</option>
+        <option value="PB">PB</option>
+        <option value="DF">DF</option>
+      </select>
+      <br />
+      <label for="Cidade">Cidade</label>
+      <select id="Cidade" name="Cidade">
+        <option value="selecionar">Selecionar</option>
+        <option value="são paulo">São Paulo</option>
+        <option value="rio de janeiro">Rio de Janeiro</option>
+        <option value="joão pessoa">João Pessoa</option>
+        <option value="ceilandia">Ceilândia</option>
+      </select>
+      
+      <fieldset>
+        <legend>Hobbies</legend>
+        <input type="checkbox" id="checkbox" name="checkbox" value="agree">
+        <label>Música</label>
+        <br />
+        <input type="checkbox" id="checkbox" name="checkbox" value="agree">
+        <label>Futebol</label>
+        <br />
+        <input type="checkbox" id="checkbox" name="checkbox" value="agree">
+        <label>Teatro</label>
+        <br />
+        <input type="checkbox" id="checkbox" name="checkbox" value="agree">
+        <label>Jogos</label>
+        <br />
+        <input type="checkbox" id="checkbox" name="checkbox" value="agree">
+        <label>Cozinha</label>
+      </fieldset>
+      <br>
+      <label for="observacoes">Observações:</label>
+      <textarea id="observacoes" name="observacoes" rows="5" cols="60"></textarea>
+    </form>
+    <button>Enviar</button>
+    <button>Limpar</button>
+    <button>Voltar</button>    
+  </body>
+</htmnl>

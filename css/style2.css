@@ -1,0 +1,13 @@
+body {
+  background-color: aquamarine;
+}
+p {
+  background-color: white;
+}
+
+.link {
+  color: red;
+}
+.link:hover {
+  border-style: outset;
+}

@@ -3,6 +3,7 @@ body {
 }
 p {
   background-color: white;
+  padding: 5px;
 }
 
 .link {

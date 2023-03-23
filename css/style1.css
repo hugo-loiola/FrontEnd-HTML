@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  padding: 5px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+li {
+  border-left: 2px solid blue;
+  border-bottom: 2px dotted blue;
+  margin-left: 30px;
+}
+p {
+  color: blue;
+  margin: 0;
+  text-indent: 5ch;
+}
+h1 {
+  color: black;
+  border: 5px red solid;
+  text-align: center;
+  padding: 15px;
+  font-size: 50px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  background-color: green;
+  font-size: 20px;
+}

@@ -15,7 +15,7 @@ ul {
 }
 li {
   background-color: #cca9dd;
-  border-bottom: red 2px solid;
+  border-bottom: red 1px solid;
   border-left: #993399 5px solid;
   padding-right: 15px;
 }
@@ -50,6 +50,7 @@ p {
 }
 .item2 {
   grid-area: menu;
+  margin-left: -40px;
 }
 .item3 {
   grid-area: main;
